@@ -7,7 +7,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiChakraui, SiUpwork } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
-import Connect from './connect';
+import Connect from './Connect';
 
 
 const Home = () => {
@@ -41,12 +41,13 @@ const Home = () => {
           <div className='absolute top-0 left-0 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin '></div>
         </div>
       </div>
-      <div className='flex flex-col md:flex-row items-center md:space-x-8 space-y-4'>
-        <div className='flex space-x-4 text-base md:text-xl text-[#555555]'>
-          <p className=''>Tech Stack</p>
-          {/* <p className=''>|</p> */}
+      <div className='flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0'>
+        <div className='flex md:flex-row flex-col  text-lg md:text-xl text-[#555555]'>
+          <p>Tech Stack</p>
+          <p className='hidden md:block ml-4'>|</p>
+          <p className='w-full h-0.5 bg-[#555555] md:hidden'></p>
         </div>
-        <div className='flex flex-col md:flex-row text-5xl md:space-x-4 space-y-4 items-center'>
+        <div className='flex flex-col md:flex-row text-5xl md:space-x-4 space-y-4 md:space-y-0 items-center'>
           <div className='flex space-x-4 mx-auto'>
             <FaHtml5 className='hover:animate-bounce'/>
             <FaCss3 className='hover:animate-bounce'/>

@@ -10,7 +10,7 @@ import { SiUpwork } from 'react-icons/si'
 const Contact = () => {
   
   return (
-    <div className='bg-[#f9f9f9] w-screen h-[50vh] flex items-center justify-evenly'>
+    <div id='contact' className='bg-[#f9f9f9] w-screen h-[50vh] flex items-center justify-evenly'>
       <div className='w-[70%]'>
         <div className='w-[70%]'>
           <p className='text-[#555555] text-xl font-semibold italic'>Hire Me</p>

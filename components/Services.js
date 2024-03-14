@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='bg-[#f9f9f9] h-[90vh] w-screen flex flex-col items-center justify-evenly'>
+    <div id='services' className='bg-[#f9f9f9] h-[90vh] w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
           <p className='text-[#555555] text-xl font-semibold italic'>Who I can do</p>
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Services</p>

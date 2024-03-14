@@ -6,7 +6,7 @@ import { IoDocumentText } from "react-icons/io5";
 
 const About = () => {
   return (
-    <div className='flex items-center justify-evenly md:h-[90vh] w-screen bg-white'>
+    <div id='about' className='flex items-center justify-evenly md:h-[90vh] w-screen bg-white'>
       <div className='flex md:flex-row flex-col-reverse w-[70%] justify-between md:space-x-10'>
       <div className='md:w-[70%] relative mx-auto mt-4'>
           <img className='border-solid rounded-2xl border-5 ' src="pic2.jpeg" alt="picture" srcset="" />

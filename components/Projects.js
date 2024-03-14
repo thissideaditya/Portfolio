@@ -11,7 +11,7 @@ const Projects = () => {
     {projectName: "Coming Soon", projectData: "This project will come soon", techStack: [], link: "#projects"}
   ]
   return (
-    <div className='bg-white h-[90vh] w-screen flex flex-col items-center justify-evenly'>
+    <div id='projects' className='bg-white h-[90vh] w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
           <p className='text-[#555555] text-xl font-semibold italic'>I build real value</p>
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Projects</p>
