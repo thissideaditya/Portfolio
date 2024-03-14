@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div id='services' className='bg-[#f9f9f9] h-[90vh] w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
-          <p className='text-[#555555] text-xl font-semibold italic'>Who I can do</p>
+          <p className='text-[#555555] text-xl font-semibold italic'>What I can do</p>
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Services</p>
           <p className='text-[#555555] text-lg'>Are you looking to establish a strong online presence for your business or showcase your work through a stunning personal website? Look no further! As a passionate web developer, I specialize in crafting high-quality, bespoke websites that leave a lasting impression.</p>
           <p className='text-[#2d2e32] text-2xl font-bold' >What I Offer</p>
