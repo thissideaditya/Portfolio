@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
         <div className='w-[100%] md:w-[60%] relative mx-auto mt-4'>
-          <img src="/IMG_2476.JPG" alt="picture" srcset="" />
+          <img src="/IMG_2476.jpg" alt="picture" srcset="" />
           <div className='absolute top-0 left-0 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin '></div>
         </div>
       </div>
