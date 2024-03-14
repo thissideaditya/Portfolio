@@ -12,7 +12,8 @@ export default function HomePage() {
     <div >
       <Head>
         <title>aditya.dev</title>
-        <meta name="keywords" content="web development, programming" />
+        <meta name="keywords" content="Portfolio" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Navbar />
       <Home />
