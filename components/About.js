@@ -27,8 +27,10 @@ const About = () => {
             </div>
         </div>
         <div className='flex flex-col justify-evenly'>
-          <p className='text-[#555555] text-lg md:text-xl font-semibold mt-4 md:-mb-6 italic'>Who I am</p>
-          <p className='text-[#2d2e32] text-4xl font-extrabold' >About /-</p>
+          <div>
+            <p className='text-[#555555] text-lg md:text-xl font-semibold mt-4 italic'>Who I am</p>
+            <p className='text-[#2d2e32] text-4xl font-extrabold' >About /-</p>
+          </div>
           <p className='text-[#555555] text-2xl md:text-3xl font-bold'>Hi, I ' m a Frontend Developer 🚀 from Delhi, India.</p>
           <p className='text-[#555555] text-sm md:text-lg'>I am always eager to learn and explore new technologies, and stay up-to-date with the latest trends in web development 🚀. I specialize in using ReactJS, JavaScript, Redux, and NextJS to create beautiful and functional interfaces.</p>
           <p className='text-[#555555] text-sm md:text-lg'>In addition to my web development skills, I also have a keen eye for design and enjoy working with Final Cut Pro to bring my ideas and videos to life. When I'm not coding, you can find me exploring new Places and Travelling😉️.</p>
