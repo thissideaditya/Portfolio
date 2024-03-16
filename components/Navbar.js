@@ -1,8 +1,14 @@
 import Link from "next/link";
-import Home from "./Home";
+// import { useState } from "react";
 
 
 export default function Navbar() {
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const handleMenu = () => {
+  //   setIsOpen(!isOpen)
+  // }
+
   const navList = [
     { name: 'About', link: '#about' },
     { name: 'Services', link: '#services' },
@@ -23,6 +29,16 @@ export default function Navbar() {
           )
         }) }
       </ul>
+
+      {/* <button onClick={handleMenu}>
+        {navList.map((item, index) => {
+          return(
+            <Link href={item.link}>
+              <span className="sm:text-base font-semibold text-sm hover:scale-105 duration-300">{item.name}</span>
+            </Link>
+          )
+        })}
+      </button> */}
     </div>
   );
 }

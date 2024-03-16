@@ -10,7 +10,7 @@ const Services = () => {
     {service: "Ongoing Support", serviceText: "Ensure optimal website performance beyond deployment."}
   ]
   return (
-    <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 h-full w-screen flex flex-col items-center justify-evenly'>
+    <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 h-[100vh] w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
           <p className='text-[#555555] text-lg md:text-xl font-semibold italic'>What I can do</p>
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Services</p>
@@ -21,7 +21,8 @@ const Services = () => {
       <div className='md:grid md:grid-rows-2 grid-cols-3 w-[65%]'>
         {serviceList.map((item, index) => {
           return(
-            <div className='m-2 hover:scale-105 duration-300 border-2 rounded-lg'>
+            <div className='m-2 hover:scale-105 duration-300 rounded-lg bg-[#f7fff5]'>
+              {/* border-2 */}
               <p className='text-[#2d2e32] text-lg font-bold ml-1'>{item.service}</p>
               <p className='w-[30%] md:w-[50%] h-0.5 bg-[#555555] ml-1'></p>
               <p className='text-[#555555] text-base ml-1'>{item.serviceText}</p>
