@@ -23,7 +23,7 @@ export default function Navbar() {
       <ul className="flex list-none space-x-2 sm:pr-10 justify-center sm:justify-normal" >
         {navList.map((item, index) => {
           return(
-            <Link href={item.link}>
+            <Link href={item.link} className="scroll-smooth">
               <li className="sm:text-base font-semibold text-sm hover:scale-105 duration-300">{item.name}</li>
             </Link>
           )

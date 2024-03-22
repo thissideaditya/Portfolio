@@ -12,11 +12,11 @@ import Connect from './Connect';
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-evenly md:h-[90vh] w-screen bg-[#f9f9f9] space-y-10'>
+    <div className='flex flex-col items-center justify-evenly md:h-[90vh] h-[90vh] w-screen bg-[#f9f9f9] space-y-10'>
       <div className='flex md:flex-row flex-col-reverse w-[70%] justify-between md:space-x-10'>
         <div className='flex flex-col justify-evenly space-y-4'>
           <p className='text-[#2d2e32] text-4xl md:text-6xl font-extrabold mt-4 mx-auto' >Front-End React Developer 👋</p>
-          <p className='text-[#555555] text-sm md:text-lg'>Hi, I'm Aditya Chaurasia. A passionate Front-end React Developer based in Delhi, India. 📍</p>
+          <p className='text-[#555555] text-sm md:text-lg'>Hi, I'm <span className='hover:text-black'>Aditya Chaurasia</span>. A passionate Front-end React Developer based in Delhi, India. 📍</p>
           <div className="flex space-x-2 md:space-x-4 text-4xl mx-auto">
             {/* <Connect /> */}
             <Link href={"https://www.linkedin.com/in/thissideaditya/"} target="blank">
@@ -36,32 +36,20 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className='w-[100%] md:w-[60%] relative mx-auto mt-4'>
+        {/* <div className='w-[100%] md:w-[60%] relative mx-auto mt-4'>
           <img src="/IMG_2476.jpg" alt="picture" srcset="" />
           <div className='absolute top-0 left-0 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin '></div>
-        </div>
-      </div>
-      <div className='flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0'>
-        <div className='flex md:flex-row flex-col  text-lg md:text-xl text-[#555555]'>
-          <p>Tech Stack</p>
-          <p className='hidden md:block ml-4'>|</p>
-          <p className='w-full h-0.5 bg-[#555555] md:hidden'></p>
-        </div>
-        <div className='flex flex-col md:flex-row text-5xl md:space-x-4 space-y-4 md:space-y-0 items-center'>
-          <div className='flex space-x-4 mx-auto'>
-            <FaHtml5 className='hover:animate-bounce'/>
-            <FaCss3 className='hover:animate-bounce'/>
-            <IoLogoJavascript className='hover:animate-bounce'/>
-            <FaNodeJs className='hover:animate-bounce'/>
-          </div>
-          <div className='flex space-x-4'>
-            <FaJava className='hover:animate-bounce'/>
-            <FaReact className='hover:animate-bounce'/>
-            <TbBrandNextjs className='hover:animate-bounce' />
-            <SiChakraui className='hover:animate-bounce'/>
+        </div> */}
+        <div className='w-[80%] md:w-[60%] relative mx-auto mt-[-4rem] hover:scale-110 duration-300'>
+          <div className=' rounded-full overflow-hidden'>
+            <div className='absolute top-0 left-0 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin '></div>
+            <div className='absolute top-0 left-0 w-[101%] h-[101%] rounded-full border-4 border-black animate-spin '></div>
+            <img className='' src="/IMG_2476.jpg" alt="picture" srcset="" />
+            <div className='absolute top-[-0.25rem] left-1 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin '></div>
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

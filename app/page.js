@@ -6,10 +6,12 @@ import Contact from '@/components/Contact';
 import Services from '@/components/Services';
 import Home from '@/components/Home';
 import Head from 'next/head';
+import { MdArrowUpward } from "react-icons/md";
+import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <div >
+    <div>
       <Head>
         <title>aditya.dev</title>
         <meta name="keywords" content="Portfolio" />
@@ -22,6 +24,6 @@ export default function HomePage() {
       <Projects />
       <Contact />
       <Footer />
-    </div>   
+    </div>
   );
 }

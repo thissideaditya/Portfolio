@@ -1,9 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.pDiv {
+    width: calc(200% - 1px); /* Subtract 1px to avoid rounding errors */
+    display: flex;
+    animation: slider 10s linear infinite;
+  }
+  
+  .transDiv {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

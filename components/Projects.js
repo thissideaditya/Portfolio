@@ -10,6 +10,7 @@ const Projects = () => {
     {projectName: "File Organiser", projectData: "This project organises your file structure from terminal.", techStack: ["Terminal", "JS", "NodeJS"], link: "https://github.com/thissideaditya/File-Organiser"},
     {projectName: "Coming Soon", projectData: "This project will come soon", techStack: [], link: "#projects"}
   ]
+    
   return (
     <div id='projects' className='bg-white h-full pt-4 w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
