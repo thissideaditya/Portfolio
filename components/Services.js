@@ -21,7 +21,7 @@ const Services = () => {
       <div className='md:grid md:grid-rows-2 grid-cols-3 ml-[15%] mr-[15%]'>
         {serviceList.map((item, index) => {
           return(
-            <div className='m-2 hover:scale-105 duration-300 rounded-lg bg-white'>
+            <div className='m-2 hover:scale-105 duration-300 rounded-lg bg-white p-2'>
               {/* border-2 */}
               <div>
                 <img className='object-cover' src={item.image} alt="" />

@@ -23,10 +23,10 @@ const Projects = () => {
             projectList.map((item, index) => {
               return(
                 <Link href={item.link} target='blank'>
-                  <div key={index} className='m-4 hover:scale-105 duration-300 rounded-lg bg-[#f9f9f9]'>
+                  <div key={index} className='m-2 p-2 hover:scale-105 duration-300 rounded-lg bg-[#f9f9f9]'>
                     <p className='text-[#2d2e32] text-lg font-bold ml-1'>{item.projectName}</p>
                     <p className='w-[30%] md:w-[50%] h-0.5 bg-[#555555] ml-1'></p>
-                    <p className='text-[#555555] text-base ml-1'>{item.projectData}</p>
+                    <p className='text-[#555555] text-base ml-1 pb-1'>{item.projectData}</p>
                     <div className='flex justify-around items-center'>
                       {Array.isArray(item.techStack) && item.techStack.length > 0 && (
                         item.techStack.map((tech, index) => {
