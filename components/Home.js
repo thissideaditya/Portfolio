@@ -40,7 +40,7 @@ const Home = () => {
           <div className=' rounded-full overflow-hidden'>
             <div className='absolute top-0 left-0 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin md:hidden xl:block'></div>
             <div className='absolute top-0 left-0 w-[101%] h-[101%] rounded-full border-4 border-black animate-spin md:hidden xl:block'></div>
-            <img className='' src="/IMG_2476.jpg" alt="picture" srcset="" />
+            <img className='' src="/homePic.jpg" alt="picture" srcset="" />
             <div className='absolute top-[-0.25rem] left-1 w-[100%] h-[100%] rounded-full border-4 border-black animate-spin md:hidden xl:block'></div>
           </div>
         </div>
