@@ -7,7 +7,7 @@ import { SiChakraui } from "react-icons/si";
 function SkillsAnimate({iconSize}) {
   const tempArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   return (
-    <div className=' overflow-x-hidden w-[80vw]'>
+    <div className=' overflow-x-hidden w-[80vw] pt-2 pb-2'>
       <div className='pDiv flex items-center justify-center'>
         {
           tempArray.map((item, index) => {
