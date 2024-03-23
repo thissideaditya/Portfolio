@@ -18,7 +18,7 @@ const Projects = () => {
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Projects</p>
       </div>
 
-      <div className='md:grid md:grid-rows-2 md:grid-cols-3 w-[65%]'>
+      <div className='md:grid md:grid-rows-2 md:grid-cols-3 ml-[15%] mr-[15%]'>
           {
             projectList.map((item, index) => {
               return(
@@ -31,7 +31,7 @@ const Projects = () => {
                       {Array.isArray(item.techStack) && item.techStack.length > 0 && (
                         item.techStack.map((tech, index) => {
                           return(
-                            <div key={index} className="flex items-center justify-center h-6 w-[4.5rem] text-sm border-solid rounded-md border-2 border-[#555555] bg-[#555555] text-white mb-2">
+                            <div key={index} className="flex items-center justify-center md:px-3 md:py-2 px-2 py-1 text-sm border-solid rounded-md border-2 border-[#555555] bg-[#555555] text-white mb-2">
                               <p className='mx-auto'>{tech}</p>
                             </div>
                           )

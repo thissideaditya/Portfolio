@@ -2,12 +2,12 @@ import React from 'react'
 
 const Services = () => {
   const serviceList = [
-    {service: "Custom Website Design", serviceText: "Visually engaging websites reflecting your brand and user-focused experience."},
-    {service: "Responsive Development", serviceText: "Websites that adapt seamlessly to all devices for optimal user experience."},
-    {service: "Cutting-edge Tech", serviceText: "Dynamic websites with ReactJS, Next.js & modern front-end tools."},
-    {service: "Performance Optimization", serviceText: "Lightning-fast performance optimized websites for quick loading and user engagement."},
-    {service: "SEO-friendly Development", serviceText: "Boost online visibility with search engine friendly websites."},
-    {service: "Ongoing Support", serviceText: "Ensure optimal website performance beyond deployment."}
+    {service: "Custom Website Design", serviceText: "Visually engaging websites reflecting your brand and user-focused experience.", image: "customWeb.svg"},
+    {service: "Responsive Development", serviceText: "Websites that adapt seamlessly to all devices for optimal user experience.", image: "responsive.svg"},
+    {service: "Cutting-edge Tech", serviceText: "Dynamic websites with ReactJS, Next.js & modern front-end tools.", image: "cuttingEdge.jpg"},
+    {service: "Performance Optimization", serviceText: "Lightning-fast performance optimized websites for quick loading and user engagement.", image: "performance.svg"},
+    {service: "SEO-friendly Development", serviceText: "Boost online visibility with search engine friendly websites.", image: "seo.svg"},
+    {service: "Ongoing Support", serviceText: "Ensure optimal website performance beyond deployment.", image: "support1.svg"}
   ]
   return (
     <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 w-screen flex flex-col items-center justify-evenly'>
@@ -18,11 +18,14 @@ const Services = () => {
           <p className='text-[#2d2e32] text-xl md:text-2xl font-bold mt-4' >What I Offer</p>
       </div>
 
-      <div className='md:grid md:grid-rows-2 grid-cols-3 w-[65%]'>
+      <div className='md:grid md:grid-rows-2 grid-cols-3 ml-[15%] mr-[15%]'>
         {serviceList.map((item, index) => {
           return(
             <div className='m-2 hover:scale-105 duration-300 rounded-lg bg-white'>
               {/* border-2 */}
+              <div>
+                <img className='object-cover' src={item.image} alt="" />
+              </div>
               <p className='text-[#2d2e32] text-lg font-bold ml-1'>{item.service}</p>
               <p className='w-[30%] md:w-[50%] h-0.5 bg-[#555555] ml-1'></p>
               <p className='text-[#555555] text-base ml-1'>{item.serviceText}</p>
