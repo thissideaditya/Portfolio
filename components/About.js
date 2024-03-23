@@ -43,8 +43,8 @@ const About = () => {
         <div className='flex flex-col mx-auto'>
           <p className='text-md md:text-4xl mx-auto bg-[#FF5959] text-white rounded-full font-mono p-2 md:p-5'>Tech Stack</p>
         </div>
-        <div className='m-4 md:text-8xl text-6xl text-[#757575]'>
-          <SkillsAnimate />
+        <div className='m-4 text-[#757575]'>
+          <SkillsAnimate iconSize={'md:text-8xl text-6xl'}/>
         </div>
       </div>
     </div>

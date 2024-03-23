@@ -16,13 +16,11 @@
 
 .pDiv {
     width: calc(200% - 1px);
-    display: flex;
     animation: slider 10s linear infinite;
   }
   
   .transDiv {
     width: 50%;
-    display: flex;
     justify-content: space-around;
   }
   
