@@ -10,18 +10,18 @@ const About = () => {
   return (
     <div id='about' className='flex flex-col items-center justify-evenly md:h-[100vh] w-screen bg-white'>
       <div className='flex md:flex-row flex-col-reverse w-[70%] justify-between md:space-x-10'>
-        <div className='md:w-[70%] w-[50%] relative mx-auto mt-4'>
-            <img className='hover:scale-105 duration-300 border-solid rounded-2xl border-5 ' src="pic2.jpeg" alt="picture" srcset="" />
+        <div className='relative mx-auto mt-4'>
+            <img className='hover:scale-105 duration-300 md:w-full w-[50%] mx-auto border-solid rounded-2xl border-5 ' src="pic2.jpeg" alt="picture" srcset="" />
             <div className='flex justify-evenly mt-4'>
               <Link href={'#contact'}>
-                <div className="font-mono hover:scale-105 duration-300 flex items-center justify-evenly space-x-2 md:h-10 md:w-[7rem] w-[6rem] border-solid rounded-md bg-[#FF5959] text-white mr-1 ml-[-1rem]">
+                <div className="font-mono hover:scale-105 duration-300 flex items-center justify-evenly space-x-2 md:h-10 border-solid px-2 py-1 rounded-md bg-[#2d2e32] text-white mr-1 ml-[-1rem]">
                   <FaCode /> 
                   <p>Hire Me</p>
                 </div>
               </Link>
 
               <Link href={'https://drive.google.com/file/d/1j-WXv-OgUeOGwdyoO00rIPzGz5QYzweP/view?usp=sharing'} target='_blank'>
-                <div className="font-mono hover:scale-105 duration-300 flex items-center justify-evenly space-x-2 md:h-10 md:w-[7rem] w-[6rem] border-solid rounded-md bg-[#FF5959] text-white">
+                <div className="font-mono hover:scale-105 duration-300 flex items-center justify-evenly space-x-2 md:h-10 px-2 py-1 border-solid rounded-md bg-[#2d2e32] text-white">
                   <IoDocumentText />
                   <p>Resume</p>
                 </div>
@@ -41,9 +41,9 @@ const About = () => {
       {/* Skills */}
       <div className='mt-4 md:mt-0'>
         <div className='flex flex-col mx-auto'>
-          <p className='text-md md:text-4xl mx-auto bg-[#FF5959] text-white rounded-full font-mono p-2 md:p-5'>Tech Stack</p>
+          <p className='text-md md:text-4xl mx-auto bg-[#2d2e32] text-white rounded-full font-mono px-2 py-1 md:px-8 md:py-4 my-4'>Tech Stack</p>
         </div>
-        <div className='m-4 text-[#757575]'>
+        <div className='m-4 text-[#2d2e32]'>
           <SkillsAnimate iconSize={'md:text-8xl text-6xl'}/>
         </div>
       </div>

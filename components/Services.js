@@ -10,7 +10,7 @@ const Services = () => {
     {service: "Ongoing Support", serviceText: "Ensure optimal website performance beyond deployment."}
   ]
   return (
-    <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 md:h-[100vh] h-[100] w-screen flex flex-col items-center justify-evenly'>
+    <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
           <p className='text-[#555555] text-lg md:text-xl font-semibold italic'>What I can do</p>
           <p className='text-[#2d2e32] text-4xl font-extrabold' >Services</p>
