@@ -15,8 +15,8 @@
 
 
 .pDiv {
-    width: calc(200% - 1px);
-    animation: slider 10s linear infinite;
+    width: calc(800% - 1px);
+    animation: slider 20s linear infinite;
   }
   
   .transDiv {
