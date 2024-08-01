@@ -20,7 +20,7 @@ const About = () => {
                 </div>
               </Link>
 
-              <Link href={'https://drive.google.com/file/d/1j-WXv-OgUeOGwdyoO00rIPzGz5QYzweP/view?usp=sharing'} target='_blank'>
+              <Link href={'https://drive.google.com/file/d/1-u-irZifpdZ__Cye_SJ7NrdTZTN6qSxn/view?usp=sharing'} target='_blank'>
                 <div className="font-mono hover:scale-105 duration-300 flex items-center justify-evenly space-x-2 md:h-10 px-2 py-1 border-solid rounded-md bg-[#2d2e32] text-white">
                   <IoDocumentText />
                   <p>Resume</p>

@@ -32,3 +32,17 @@
       transform: translateX(-50%);
     }
   }
+
+  .services-font-h{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  .services-font-t{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  }

@@ -1,7 +1,5 @@
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
-import Connect from "./Connect";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";

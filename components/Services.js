@@ -10,12 +10,12 @@ const Services = () => {
     {service: "Ongoing Support", serviceText: "Ensure optimal website performance beyond deployment.", image: "support1.svg"}
   ]
   return (
-    <div id='services' className='bg-[#f9f9f9] pb-4 pt-4 w-screen flex flex-col items-center justify-evenly'>
+    <div id='services' className='bg-black pb-4 pt-4 w-screen flex flex-col items-center justify-evenly'>
       <div className='flex flex-col justify-evenly w-[70%]'>
-          <p className='text-[#555555] text-lg md:text-xl font-semibold italic'>What I can do</p>
-          <p className='text-[#2d2e32] text-4xl font-extrabold' >Services</p>
-          <p className='text-[#555555] text-sm md:text-lg'>Are you looking to establish a strong online presence for your business or showcase your work through a stunning personal website? Look no further! As a passionate web developer, I specialize in crafting high-quality, bespoke websites that leave a lasting impression.</p>
-          <p className='text-[#2d2e32] text-xl md:text-2xl font-bold mt-4' >What I Offer</p>
+          <p className='text-white text-lg md:text-xl font-semibold italic'>What I can do</p>
+          <p className='text-white text-4xl font-extrabold services-font-h' >Services</p>
+          <p className='text-white text-sm md:text-lg services-font-t'>Are you looking to establish a strong online presence for your business or showcase your work through a stunning personal website? Look no further! As a passionate web developer, I specialize in crafting high-quality, bespoke websites that leave a lasting impression.</p>
+          <p className='text-white text-xl md:text-2xl font-bold mt-4 services-font-h' >What I Offer</p>
       </div>
 
       <div className='md:grid md:grid-rows-2 grid-cols-3 ml-[15%] mr-[15%]'>
@@ -35,9 +35,9 @@ const Services = () => {
       </div>
       
       <div className='w-[70%]'>
-        <p className='text-[#2d2e32] text-lg font-bold mb-2'>Why Choose Me?</p>
-        <p className='text-[#555555] text-base'>I'm not just a developer, I'm your online journey partner. Through close collaboration, I understand your vision, goals, and audience. Together, we'll create a unique website that reflects your business objectives and sets you apart.</p>
-        <p className='text-[#555555] text-base font-bold mt-2'>Reach out to me, and let's bring your ideas to life!</p>
+        <p className='text-white text-lg font-bold mb-2 services-font-h'>Why Choose Me?</p>
+        <p className='text-white text-base services-font-t'>I'm not just a developer, I'm your online journey partner. Through close collaboration, I understand your vision, goals, and audience. Together, we'll create a unique website that reflects your business objectives and sets you apart.</p>
+        <p className='text-white text-base font-bold mt-2 services-font-h'>Reach out to me, and let's bring your ideas to life!</p>
       </div>
     </div>
   )
